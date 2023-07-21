@@ -1,0 +1,27 @@
+header{
+    display: flex;
+    justify-content:space-between;
+    text-decoration: none;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzGkAMSzsO3jPbN_tn6tWsPBiLSv3J6AXctnPhosXiPO__ZxTeCQPXNryvBTeSFiSE4no&usqp=CAU");
+    height: 100px;
+    background-repeat: none;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+}
+
+h1{
+    margin-top: 1px;
+    margin: 8px;
+    font-size: 44px;
+}
+
+.navbar{
+    margin: 3px;
+    padding: 3px;
+    font-size: 18px;
+    font-weight: 500;
+}
