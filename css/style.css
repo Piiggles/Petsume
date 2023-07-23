@@ -83,13 +83,46 @@ ul{
 
 }
 
-main{
+/* main{
     height: 850px;
     display: flex;
     justify-content: center;
     align-items: center;
-}
+} */
 
 #floatingTextarea2{
     display: flex;
 }
+
+#all-post{
+    display: grid;
+    justify-content: center;
+    
+  
+}
+
+#create-post-button{
+    display: flex;
+    justify-content: end;
+    margin: 5px;
+}
+
+.post-button{
+    background-color: peru;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+    border: 1px solid black;
+    height: 30px;
+}
+
+.post-button:hover{
+ background-color: red;
+}
+
+.post-button:active{
+    background-color: blue ;
+}
+
