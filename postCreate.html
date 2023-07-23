@@ -28,14 +28,37 @@
       <!-- create upload image -->
       <!-- change look of the buttons and text box -->
       <!-- create specific and custom classes and ids -->
-      <div>
-      <div class="form-floating">
-        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2"
-          style="height: 200px"></textarea>
-        <label for="floatingTextarea2">Comments</label>
-      </div>
-      </div>
-      <button>
+      <head>
+        <title>TEXTT</title>
+        <style>
+          .textarea-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 80%;
+            max-width: 500px;
+            height: 100px;
+            margin: 0 auto;
+            position: relative;
+          }
+
+          #myTextArea {
+            width: 100%;
+            height: 100%;
+            resize: none;
+          }
+
+          #myButton {
+            margin-top: 10px;
+          }
+        </style>
+      </head>
+      <body>
+        <div class="textarea-container">
+          <textarea id="myTextArea" name="myTextArea" placeholder="Add a description or comment here.."></textarea>
+        </div>
+      </body>
+      <button id="myButton">
         Create post 
       </button>
     </div>
@@ -45,3 +68,9 @@
 </body>
 
 </html>
+
+<!-- <div class="form-floating">
+  <textarea class="form-control" placeholder="Add a description here!" id="floatingTextarea2"
+    style="height: 150px; width 500px"></textarea>
+  <label for="floatingTextarea2">Comments</label>
+</div> -->
